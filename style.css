@@ -221,6 +221,17 @@ p{
     color: crimson;
 }
 
+.service-top ul .title{
+   font-size: 2.5rem;
+   text-shadow: 0.05rem 0.05rem #020202 ;
+}
+
+.service-top ul li{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    list-style-type: none;
+}
 
 
 /* Hero section */
@@ -309,7 +320,7 @@ p{
 }
 
 #services .service-top{
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
 }
 #services .service-top p{

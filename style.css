@@ -28,12 +28,21 @@ a{
 img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
     /* 被替換的內容的大小被調整為保持其縱橫比，同時適合元素的內容框：它的具體對像大小被解析為對元素使用的寬度和高度的包含約束。 */
     /* 使用 object-fit: cover;，它会剪切图像的侧面，保留长宽比，并填充空间 */
     /* contain: resource 在 element 內保持寬高比 */
 }
 p{
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    /* 行高 */
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+.service-top ul li{
     color: black;
     font-size: 1.4rem;
     margin-top: 5px;
